@@ -94,13 +94,13 @@ abstract public class SortAlgoBase {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(orderedArray(5)));
-        System.out.println(Arrays.toString(randomArray(5)));
-        System.out.println(Arrays.toString(randomArray(10, 5)));
-        System.out.println(Arrays.toString(randomArray(10, 5, 1)));
-        System.out.println(Arrays.toString(randomArray(10, 5, 1)));
-
-        System.out.println(isSorted(randomArray(10)));
-        System.out.println(isSorted(orderedArray(1000)));
+//        System.out.println(Arrays.toString(orderedArray(5)));
+//        System.out.println(Arrays.toString(randomArray(5)));
+//        System.out.println(Arrays.toString(randomArray(10, 5)));
+//        System.out.println(Arrays.toString(randomArray(10, 5, 1)));
+//        System.out.println(Arrays.toString(randomArray(10, 5, 1)));
+//
+//        System.out.println(isSorted(randomArray(10)));
+//        System.out.println(isSorted(orderedArray(1000)));
     }
 }

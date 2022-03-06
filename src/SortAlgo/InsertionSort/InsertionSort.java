@@ -9,7 +9,7 @@ public class InsertionSort extends SortAlgoBase {
     }
 
     @Override
-    protected <E extends Comparable<E>> void sort(E[] arr) {
+    public <E extends Comparable<E>> void sort(E[] arr) {
         for (int i = 0; i < arr.length; ++i) {
             // 把 arr[i] 插入到合适的位置
             for (int j = i; j - 1 >= 0; j--) {

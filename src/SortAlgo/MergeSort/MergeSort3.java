@@ -11,7 +11,7 @@ public class MergeSort3 extends SortAlgoBase {
     }
 
     @Override
-    protected <E extends Comparable<E>> void sort(E[] arr) {
+    public <E extends Comparable<E>> void sort(E[] arr) {
         E[] aux = Arrays.copyOf(arr, arr.length);
         final int n = arr.length;
 

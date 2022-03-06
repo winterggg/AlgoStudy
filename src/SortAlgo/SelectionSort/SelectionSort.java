@@ -9,7 +9,7 @@ public class SelectionSort extends SortAlgoBase {
     }
 
     @Override
-    protected <E extends Comparable<E>> void sort(E[] arr) {
+    public <E extends Comparable<E>> void sort(E[] arr) {
         for (int i = 0; i < arr.length; ++i) {
             int minIdx = i;
 

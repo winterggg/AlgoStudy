@@ -12,7 +12,7 @@ public class MergeSort2 extends SortAlgoBase {
     }
 
     @Override
-    protected <E extends Comparable<E>> void sort(E[] arr) {
+    public <E extends Comparable<E>> void sort(E[] arr) {
         sort(arr, 0, arr.length - 1);
     }
 
